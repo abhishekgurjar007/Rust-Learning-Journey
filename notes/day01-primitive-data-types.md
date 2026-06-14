@@ -15,6 +15,7 @@ Primitive data types are the basic building blocks used to store different kinds
 Signed integers can store both positive and negative numbers.
 
 Types:
+
 - i8
 - i16
 - i32
@@ -35,6 +36,7 @@ let temperature: i32 = -5;
 Unsigned integers can store only positive numbers and zero.
 
 Types:
+
 - u8
 - u16
 - u32
@@ -54,6 +56,7 @@ let score: u32 = 100;
 Used for decimal values.
 
 Types:
+
 - f32
 - f64
 
@@ -120,4 +123,4 @@ fn main() {
 
 ## Next Topic
 
-Variables and Mutability
+Compound Data Types.
