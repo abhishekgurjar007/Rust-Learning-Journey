@@ -291,26 +291,6 @@ Characteristics:
 
 ---
 
-# Key Learnings
-
-- Arrays store values of the same type.
-- Array size is fixed.
-- Tuples can store different data types together.
-- `{:?}` is used for Debug formatting.
-- Slices borrow data instead of owning it.
-- `String` owns data.
-- `&str` borrows string data.
-- `.to_string()` converts a string slice into an owned String.
-- `&[&String]` means a slice containing references to String values.
-
----
-
-# Day 02 Summary
-
-Today I learned Rust's compound data types: Arrays, Tuples, Slices, Strings, and String Slices. I practiced creating collections, accessing elements, borrowing data through slices, understanding ownership with Strings, and using Debug formatting for printing complex data structures.
-
----
-
 ## Mutable String Example
 
 ```rust
@@ -431,5 +411,23 @@ let language = String::from("Rust");
 - The `String` structure is stored on the stack
 - The actual string data is stored on the heap
 - `String` owns its data and can grow dynamically
+
+# Key Learnings
+
+- Arrays store values of the same type.
+- Array size is fixed.
+- Tuples can store different data types together.
+- `{:?}` is used for Debug formatting.
+- Slices borrow data instead of owning it.
+- `String` owns data.
+- `&str` borrows string data.
+- `.to_string()` converts a string slice into an owned String.
+- `&[&String]` means a slice containing references to String values.
+
+---
+
+# Day 02 Summary
+
+Today I learned Rust's compound data types: Arrays, Tuples, Slices, Strings, and String Slices. I practiced creating collections, accessing elements, borrowing data through slices, understanding ownership with Strings, and using Debug formatting for printing complex data structures.
 
 **Status:** Day 02 Completed ✅
